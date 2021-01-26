@@ -5,4 +5,6 @@ function calculepérimétre(){
     var résultat = longueur+largeur;
     alert(résultat);
 
+
+
 }
