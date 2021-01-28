@@ -2,7 +2,6 @@ function jourDeLaSemaine(){
 
     var date;
      date = new Date();
-     date.getDay();
 
     switch (date.getDay()) {
         case 0:
