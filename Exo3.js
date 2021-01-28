@@ -2,18 +2,12 @@
     var a = 3;
     var b = 2;
 
-function multiplie(résultat){
-
-    var x = 8;
-    var résultat;
-    résultat = x*3;
-
-    return résultat;
-   
-}
+const multiplie = (x = 8) => x*3;
 
 function affiche(résultat){
 
-    alert(résultat);
+    alert(multiplie(a));
+    alert(multiplie(b));
+    alert(multiplie());
 
 }
