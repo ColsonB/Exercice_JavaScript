@@ -2,14 +2,18 @@
     var a = 3;
     var b = 2;
 
-function multiplie(x = 8){
+function multiplie(résultat){
 
-    var résultat = x*3;
+    var x = 8;
+    var résultat;
+    résultat = x*3;
 
+    return résultat;
+   
 }
 
-function affiche(){
+function affiche(résultat){
 
-    
+    alert(résultat);
 
 }
