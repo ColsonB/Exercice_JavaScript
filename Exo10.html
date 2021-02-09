@@ -5,6 +5,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     </head>
     <body>
+
+
+        <img id="img" src="img/mine.jpeg" alt="" width="500">
         <img onmouseover="this.innerHTML='Aie'" />
     </body>
+    <script>
+        const img = document.getElementById('img')
+        
+        img.addEventListener("mouseover", () => img.src = "img/explosion.jpeg" )
+        img.addEventListener("mouseout", () =>  img.src = "img/mine.jpeg" )
+    </script>
 </html>
