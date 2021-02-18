@@ -2,7 +2,6 @@ function init(){
     var nom = document.getElementById(name1);
     var prenom = document.getElementById(prenom1);
     var info = document.getElementById(info1);
-    alert(nom, prenom, info);
 }
 
 function fctSubmit(){
