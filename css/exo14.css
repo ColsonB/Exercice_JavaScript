@@ -19,12 +19,8 @@ font: 1em sans-serif;
 width: 300px;
 box-sizing: border-box;
 border: 1px solid #999;
-      }
-      
-input:focus{
-border-color: #000;
 }
-          
+              
 .button {
 padding-left: 90px; 
 }
